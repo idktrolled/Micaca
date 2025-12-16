@@ -1,7 +1,7 @@
 name: xd
 
 on:
-push:
+   push:
 env:
   HAXE_VERSION: 4.3.2
   PROJECT_NAME: PsychEngine
