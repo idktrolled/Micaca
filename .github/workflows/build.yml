@@ -1,27 +1,7 @@
 name: xd
 
 on:
-  workflow_call:
-    inputs:
-      name:
-        required: true
-        type: string
-      os:
-        required: true
-        type: string
-      setupCommand:
-        required: true
-        type: string
-      buildArgs:
-        required: true
-        type: string
-      artifactName:
-        required: true
-        type: string
-      artifactPath:
-        required: true
-        type: string
-
+push:
 env:
   HAXE_VERSION: 4.3.2
   PROJECT_NAME: PsychEngine
