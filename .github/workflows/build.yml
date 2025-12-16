@@ -1,4 +1,4 @@
-name: Build
+name: xd
 
 on:
   workflow_call:
